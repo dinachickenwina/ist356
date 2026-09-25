@@ -45,7 +45,7 @@ st.divider()
 
 
 st.markdown("## 'Other' Widgets")
-feed = st.feedback('faces')
+feed = st.feedback('stars')
 st.text(f"OUTPUT: {feed}, type: {type(feed)}")
 color = st.color_picker('Pick a color:', value='#00f900')
 st.text(f"OUTPUT: {color}, type: {type(color)}")
